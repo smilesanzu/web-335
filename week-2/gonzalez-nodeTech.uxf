@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>160</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>STUDENT
+--
+studentId
+firstName
+lastName
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>160</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>INVOICE
+--
+term
+gpa
+startDate
+endDate
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>200</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>1
+lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>200</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>N
+lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>540</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>COURSE
+--
+courseId
+description
+instructor
+score
+letterGrade
+bg=GREEN</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>590</x>
+      <y>360</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>has
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>270</y>
+      <w>40</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>1
+lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>450</y>
+      <w>40</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>N
+lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>330</x>
+      <y>170</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>has
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>270</y>
+      <w>40</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>1
+lt=-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>200</x>
+      <y>500</y>
+      <w>120</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>has
+bg=PINK</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>530</y>
+      <w>260</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>N
+lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+</diagram>
