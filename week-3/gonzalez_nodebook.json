@@ -1,0 +1,46 @@
+[{
+        "publisher_name": "Penguin Random House",
+        "publisher_code": "32445",
+        "publisher_address": "2345 Street Avenue, Random City, CA 12345",
+        "author": [{
+                "author_last_name": "Goter",
+                "author_first_name": "Lange",
+                "author_phone": "123-456-3453",
+                "author_email": "glange@yahoo.com"
+            },
+            {
+                "author_last_name": "Gate",
+                "author_first_name": "Stys",
+                "author_phone": "123-235-1235",
+                "author_email": "gstys@gmail.com"
+            }
+        ]
+    },
+    {
+        "author_last_name": "Goter",
+        "author_first_name": "Lange",
+        "author_phone": "123-456-3453",
+        "author_email": "glange@yahoo.com",
+        "books": [{
+                "book_isbn": "74537549383405",
+                "book_name": "Over The River",
+                "book_price": "43.89"
+            },
+            {
+                "book_isbn": "74537549383403",
+                "book_name": "Down Under",
+                "book_price": "55.67"
+            }
+        ]
+    },
+    {
+        "book_isbn": "74537549383405",
+        "book_name": "Over The River",
+        "book_price": "43.89",
+        "publisher": {
+            "publisher_name": "Penguin Random House",
+            "publisher_code": "32445",
+            "publisher_address": "2345 Street Avenue, New York, NY 12345"
+        }
+    }
+]

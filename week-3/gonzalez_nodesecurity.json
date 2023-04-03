@@ -1,0 +1,21 @@
+[{
+        "user": "Eileen",
+        "roles": [{
+                "role1": "admin"
+            },
+            {
+                "role2": "owner"
+            }
+        ]
+    },
+    {
+        "role": "admin",
+        "permission": [{
+                "permission1": "system admin"
+            },
+            {
+                "permission2": "owner admin"
+            }
+        ]
+    }
+]
