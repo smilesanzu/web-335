@@ -1,0 +1,40 @@
+[
+    {
+      "firstName": "First Person",
+      "lastName": "Last Name of Person",
+      "customerId": "12343",
+      "wishList": [
+        {
+          "title": "Book Title 1",
+          "genre": "Genre Type 1",
+          "author": "Author Name 1",
+          "bookId": "12345"
+        },
+        {
+          "title": "Book Title 2",
+          "genre": "Genre Type 2",
+          "author": "Author Name 2",
+          "bookId": "12346"
+        }
+      ]
+    },
+    {
+      "firstName": "Second Person",
+      "lastName": "Last Name of Second Person",
+      "customerId": "12347",
+      "wishList": [
+        {
+          "title": "Book Title 3",
+          "genre": "Genre Type 3",
+          "author": "Author Name 3",
+          "bookId": "12348"
+        },
+        {
+          "title": "Book Title 4",
+          "genre": "Genre Type 4",
+          "author": "Author Name 4",
+          "bookId": "12349"
+        }
+      ]
+    }
+  ]

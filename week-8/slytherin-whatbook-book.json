@@ -1,0 +1,16 @@
+
+
+[
+    {
+      "title": "Book Title",
+      "genre": "Genre Type",
+      "author": "Author Name",
+      "bookId": "12345"
+    },
+    {
+      "title": "Book Title",
+      "genre": "Genre Type",
+      "author": "Author Name",
+      "bookId": "12346"
+    }
+  ]
